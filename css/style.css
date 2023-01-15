@@ -1,0 +1,65 @@
+.title {
+    text-align: center;
+    line-height: 5px;
+    font-size: 75px;
+}
+.sub-titles {
+    text-align: center;
+    line-height: 5px;
+    font-size: 60px;
+}
+.footer {
+    /* margin-left: auto;
+    margin-right: auto; This code is struck out because it does not work when the item is fixed
+    right now I just position this manually but I hope to find a better solution*/
+    position: fixed;
+    background-color: #25FE3B;
+    border: 10px ridge blue;
+    top: 500px;
+   /* left: 90px; Ignore this part below is correct, this is the link for it:
+   https://granneman.com/webdev/coding/css/centertables */
+   width:70%; 
+   margin-left:15%; 
+   margin-right:15%;
+}
+.intro-para {
+    text-align: center;
+    font-size: 30px;
+}
+.sub-para {
+    text-align: center;
+    font-size: 23px;
+}
+.welcome-background {
+    background-color: #1E9BC0;
+}
+.line-background {
+    background-color: #30CB66;
+}
+.footer-head {
+    color: white;
+    font-weight: bold;
+}
+.cent-pict {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Other-background {
+    background-color: #30CB66;
+}
+.leftpict {
+    float: right;
+    float: left;
+}
+.rightpict {
+    float: left;
+    float: right;
+}
+.smallpict {
+    width: 25%;
+}
+.centTable {
+    margin-left: auto;
+    margin-right: auto;
+}
